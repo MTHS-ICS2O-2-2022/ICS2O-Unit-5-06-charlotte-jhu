@@ -16,8 +16,8 @@ function myButtonClicked() {
   let counter = 0
   let answer = 0
   while (counter < number2) {
-    answer = answer + number1
-    counter = counter + 1
+    answer += number1
+    counter ++
   }
 
 // output
